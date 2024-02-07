@@ -19,12 +19,6 @@
 }
 /*header*/
 
-.logo--imagen{
-    height: 50px; 
-    
-       
-}
-
 .container-fluid{ background-color: #B3365B;}
 
 .head{ background-color: #B3365B;}
@@ -32,7 +26,6 @@
     @include flex(flex,flex-end)
     
 }
-
 
 .nav-link {
     text-decoration: none;
@@ -54,14 +47,6 @@ display: flex;
 
 .body__home {
     background-color: #B3365B;
-    }
-
-    .div__logo{ 
-        background-image: url(../assets/logo.png);
-        background-position: center;
-        background-size: cover;
-        height: 1000px;
-        width: 100%;
     }
 
  .section__letras{ 
@@ -112,20 +97,8 @@ footer{
     justify-content: center;
     }
 .parrafo{ 
-    
     padding-top: 20px;
     @include flex(flex, center);
-}
- 
-.contenedor__redes{
-    align-items: center;
-    flex-direction: row;
-    img{
-        height: 50px;
-        padding: 10px;        
-    }
-    @include flex(flex, center);
-    
 }
 
 /*mujer*/
@@ -134,9 +107,6 @@ footer{
     
 }
 
-.section1__mujer img{
-    height: 300px;
-}
 .h1__mujer{
     padding: 20px;
 }
@@ -154,10 +124,6 @@ footer{
 
 .hombre__1{
     @include flex(flex, space-between);
-}
-
-.hombre__1 img{
-    height: 300px;
 }
 
 .div__hombre1{
@@ -194,19 +160,18 @@ footer{
 /*novedades*/
 
 .novedades__1{ 
-    @include flex(flex, space-around);
-    padding: 1rem;
-    iframe{
-        width: 1000px; height: 481px;}
-        
+@include flex(flex, space-around);
+padding: 1rem;
+iframe{
+    width: 1000px; height: 481px;
+}
 }
 #section__novedades{
-    @include flex(flex, space-around);
-    img{ 
-        height: 200px;
-        margin: 1rem;
-    }
-
+@include flex(flex, space-around);
+img{
+    height: 200px;
+    margin: 1rem;
+}
 }
 
 
